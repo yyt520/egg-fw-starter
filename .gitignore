@@ -1,0 +1,12 @@
+.idea
+.DS_Store
+.tmp
+.vscode
+.history
+
+node_modules
+npm-debug.log
+
+coverage
+logs
+run

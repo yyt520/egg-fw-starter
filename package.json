@@ -1,0 +1,23 @@
+{
+  "name": "egg-fw-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["egg-framework"],
+  "author": "Incca",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.8.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incca/egg-fw-starter"
+  }
+}
