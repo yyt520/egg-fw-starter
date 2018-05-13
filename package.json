@@ -5,16 +5,23 @@
   "main": "index.js",
   "scripts": {
     "dev": "egg-bin dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env TEST_REPORTER=mochawesome MOCHAWESOME_REPORTFILENAME=index.html egg-bin test",
+    "cov": "egg-bin cov"
   },
-  "keywords": ["egg-framework"],
+  "keywords": [
+    "egg-framework"
+  ],
   "author": "Incca",
   "license": "ISC",
   "dependencies": {
     "egg": "^2.8.1"
   },
   "devDependencies": {
-    "egg-bin": "^4.7.0"
+    "cross-env": "^5.1.5",
+    "egg-bin": "^4.7.0",
+    "egg-mock": "^3.17.1",
+    "mocha": "^5.1.1",
+    "mochawesome": "^3.0.2"
   },
   "repository": {
     "type": "git",
